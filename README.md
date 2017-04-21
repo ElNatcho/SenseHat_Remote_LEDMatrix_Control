@@ -32,3 +32,7 @@ Pro: -Man kann die LED-Matrix fernsteuern
      -Man muss die IP/den Port des Servers manuell eingeben  
      
 ![client2](https://cloud.githubusercontent.com/assets/21142935/25269228/08fefa54-267c-11e7-9721-4ae58adf22eb.PNG)
+
+### Verwendete Bibliotheken:
+-SFML 2.4
+-boost 1.64
