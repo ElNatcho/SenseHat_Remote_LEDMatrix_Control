@@ -12,6 +12,7 @@ Um den Server zu starten muss als Kommandozeilenparameter eine Konfigurationsdat
 RemLEDMatrix_Server "Conf_File"
 
 In der Konfig-Datei befindet sich der Port des Servers und Der Framebuffer des SenseHats:
+
 In meinem Fall:
 "server.conf":
 1 10000     (In der ersten Zeile MUSS der Port angegeben werden)
