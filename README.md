@@ -9,7 +9,7 @@ Der RemLEDMatrix_Server läuft auf dem Raspberry Pi mit dem SenseHat. Die Anwend
 Informationen beinhalten um die LED-Matrix zu kontrollieren, und benutzt diese Pakete um die Matrix zu steuern.
 Um den Server zu starten muss als Kommandozeilenparameter eine Konfigurationsdatei übergeben werden:
 
-RemLEDMatrix_Server <Conf-File>
+RemLEDMatrix_Server "Conf_File"
 
 In der Konfig-Datei befindet sich der Port des Servers und Der Framebuffer des SenseHats:
 In meinem Fall:
