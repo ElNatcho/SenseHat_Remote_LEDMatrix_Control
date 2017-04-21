@@ -23,7 +23,7 @@ Der RemLEDMatrix_Client ist die erste Version des Clients mit welchem man mit de
 Pro: -Man kann die LED-Matrix fernsteuern
 Con: -Die IP/der Port des Servers ist fest einprogrammiert
 
-![alt tag](https://github.com/ElNatcho/SenseHat_Remote_LEDMatrix_Control/tree/master/Bilder/Client1.PNG)
+![client1](https://cloud.githubusercontent.com/assets/21142935/25269229/08ff07d8-267c-11e7-8843-d160b4cc8621.PNG)
 
 ## 3.)RemLEDMatrix_Client_2:
 
@@ -31,4 +31,4 @@ Der RemLEDMatrix_Client_2 ist die verbesserte Version des RemLEDMatrix_Clients.
 Pro: -Man kann die LED-Matrix fernsteuern
      -Man muss die IP/den Port des Servers manuell eingeben
      
-![alt tag](https://github.com/ElNatcho/SenseHat_Remote_LEDMatrix_Control/tree/master/Bilder/Client2.png)
+![client2](https://cloud.githubusercontent.com/assets/21142935/25269228/08fefa54-267c-11e7-9721-4ae58adf22eb.PNG)
