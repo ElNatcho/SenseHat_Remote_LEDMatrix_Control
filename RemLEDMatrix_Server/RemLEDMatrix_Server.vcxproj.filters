@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CUDP_Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CLEDMatrix.cpp">
+      <Filter>LED_Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>GlobalData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{7c2951b1-c865-448e-b7b8-fb48a2807bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LED_Matrix">
+      <UniqueIdentifier>{e097dd43-69e5-468e-b89a-5a29c0568313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalData">
+      <UniqueIdentifier>{2fb8d879-3818-48e2-857b-f0f0a4ff5481}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUDP_Server.hpp">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEDMatrix.hpp">
+      <Filter>LED_Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.hpp">
+      <Filter>GlobalData</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

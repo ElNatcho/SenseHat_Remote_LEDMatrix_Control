@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Client">
+      <UniqueIdentifier>{7fe5a3ee-445d-4c5a-97bd-fa0d2dc7b107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Client">
+      <UniqueIdentifier>{aa108125-3b9a-4134-b43d-aeb7db414b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\UI">
+      <UniqueIdentifier>{d920715e-8cfb-4bd9-9a1d-9f78c52bf763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\UI">
+      <UniqueIdentifier>{3b75b423-4d9a-4bab-89aa-ff71eb6b1e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDP_Client.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CProgram.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUI.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawController.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUDP_Client.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticTools.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgram.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUI.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawController.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

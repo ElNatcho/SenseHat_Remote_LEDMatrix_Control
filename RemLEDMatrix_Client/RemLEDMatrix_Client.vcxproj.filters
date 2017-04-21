@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Client">
+      <UniqueIdentifier>{c5f28c46-82d6-46ed-84b7-183ac3c457b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Client">
+      <UniqueIdentifier>{43c6c28f-0b3f-4561-ab40-0c7b9ba28183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\UI">
+      <UniqueIdentifier>{1280c07b-6f81-4d27-bc2f-ba1b3c66f3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\UI">
+      <UniqueIdentifier>{c3a61611-b9c4-427b-ba62-6840afb54b00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CUDP_Client.cpp">
+      <Filter>Quelldateien\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CProgram.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlider.cpp">
+      <Filter>Quelldateien\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUDP_Client.hpp">
+      <Filter>Headerdateien\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticTools.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgram.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlider.hpp">
+      <Filter>Headerdateien\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
